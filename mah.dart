@@ -75,7 +75,7 @@ class Hostel {
 
         print('Added to ${room.roomNo}');
         added = true;
-        break; // ← ← student add ہوتے ہی loop بند
+        break;
       } else {
         print('${room.roomNo} full → trying next room');
       }
